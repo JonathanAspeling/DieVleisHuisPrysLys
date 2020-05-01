@@ -15,7 +15,7 @@ while cc < len(itemlist[:-1]):
 
 # Writing HTML file
 
-writing_session =  open(r"C:\Users\Jonathan McAwesome\Dropbox\Projects\DieVleisHuisPrysLys\FrontEnd\home.html","w")
+writing_session =  open(r"C:\Users\Jonathan McAwesome\Dropbox\Projects\DieVleisHuisPrysLys\FrontEnd\index.html","w")
 
 
 writing_session.write("""<!DOCTYPE html>
