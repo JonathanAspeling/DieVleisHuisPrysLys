@@ -38,14 +38,25 @@ h1,h2,h3{
     margin-top:5px;
 }
 
+.maint{
+    padding-top: 5px;
+}
+
 h1{
     margin-bottom:5px
 }
 
-.foody, .money-cell{
-    padding-right:5px;
-    padding-left:15px;
+.foody{
+    padding-right:8px;
+    padding-left:10px;
     
+    
+}
+.money-cell{
+    letter-spacing: 2px;
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 15px;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -66,18 +77,18 @@ h1{
    
     
   }
-  
-
-  
+    
   /* Style the collapsible content. Note: hidden by default */
   .content {
     padding-top: 5px;
-    text-align: left;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    text-align: center;
     font-size: 15px;
     display: none;
     overflow: hidden;
     background-color: #f2dab0;
-    width: 280px;
+    width:280px;
     margin-left:auto;
     margin-right:auto;
 

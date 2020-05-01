@@ -27,12 +27,12 @@ writing_session.write("""<!DOCTYPE html>
     <title>VleisHuisPrysLys</title>
 </head>
 <body>
-    <h1>Die Vleishuis</h1>
+    <h1 class="maint">Die Vleishuis</h1>
     <div class="buttoncontainer">
     <button type="button" class="collapsible">Promosie</button>
     
     <div class="content">
-    Koop R400 of meer kry gratis Kookvleis by!
+    Koop R400 of meer kry gratis Kookvleis by!<br><br>
     Skaapstertjies beperkte tyd beskikbaar!
     </div>
     </div>
