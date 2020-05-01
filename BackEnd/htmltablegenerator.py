@@ -58,7 +58,7 @@ writing_session.write("</div>")
 
 #Closing Tags
 writing_session.write(""" 
-<script src="JS/collapsebutton.js"></script>
+<script src="./FrontEnd/JS/collapsebutton.js"></script>
 </body>
 </html>
 """)
