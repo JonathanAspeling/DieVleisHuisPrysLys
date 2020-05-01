@@ -23,7 +23,7 @@ writing_session.write("""<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./CSS/main.css">
     <title>VleisHuisPrysLys</title>
 </head>
 <body>
@@ -35,15 +35,20 @@ writing_session.write("""<!DOCTYPE html>
 """)
 
 # Price List Table
+writing_session.write('<div class="table-center">\n')
 writing_session.write("\t<table>\n")
 writing_session.write("\t\t<tr><th>"+combo_list[0][0]+"</th><th>"+combo_list[0][1]+"</th></tr>\n")
 for i in combo_list[1:]:
     writing_session.write("\t\t<tr>")
-    for x in i:
-        writing_session.write("<td>"+x+"</td>")
+    #Food Cells
+    writing_session.write("<td>"+i[0]+"</td>")
+    #Money Cells
+    writing_session.write("<td class='money-cell'>"+i[1]+"</td>")
+
     writing_session.write("</td>\n")
 writing_session.write("\n")
 writing_session.write("\t</table>")
+writing_session.write("</div>")
 
 #Closing Tags
 writing_session.write(""" 

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Dealers-Shaded.otf);
+  }
+body{
+
+    font-family: myFirstFont;
+}
+
+th, td {
+    border: 1px solid black;
+
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+
+}
+h1,h2,h3{
+    text-align: center;
+}
+
+.money-cell{
+    font-family: arial;
+}
