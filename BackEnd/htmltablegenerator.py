@@ -15,7 +15,7 @@ while cc < len(itemlist[:-1]):
 
 # Writing HTML file
 
-writing_session =  open(r"C:\Users\Jonathan McAwesome\Dropbox\Projects\DieVleisHuisPrysLys\FrontEnd\index.html","w")
+writing_session =  open(r"C:\Users\Jonathan McAwesome\Dropbox\Projects\DieVleisHuisPrysLys\index.html","w")
 
 
 writing_session.write("""<!DOCTYPE html>
@@ -23,7 +23,7 @@ writing_session.write("""<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./FrontEnd/CSS/main.css">
     <title>VleisHuisPrysLys</title>
 </head>
 <body>
