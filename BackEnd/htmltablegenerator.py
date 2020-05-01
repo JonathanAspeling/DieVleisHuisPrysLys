@@ -10,7 +10,7 @@ combo_list = []
 while cc < len(itemlist[:-1]):
     combo_list.append([itemlist[cc],itemlist[cc+1]])
 
-    cc = cc+2
+    cc = cc+3
 
 
 # Writing HTML file
@@ -28,9 +28,15 @@ writing_session.write("""<!DOCTYPE html>
 </head>
 <body>
     <h1>Die Vleishuis</h1>
-    <h2>Promosie</h2>
-    <h3>Koop vir R400 of meer en kry gratis Vark of Kookvleis by!</h3>
-    <h3>Skaapstertjies beskikbaar teen R40 'n pakkie!</h3>
+    <div class="buttoncontainer">
+    <button type="button" class="collapsible">Promosie</button>
+    
+    <div class="content">
+    Koop R400 of meer kry gratis Kookvleis by!
+    Skaapstertjies beperkte tyd beskikbaar!
+    </div>
+    </div>
+    </div>
     <h2>Pryslys</h2>
 """)
 
@@ -41,7 +47,7 @@ writing_session.write("\t\t<tr><th>"+combo_list[0][0]+"</th><th>"+combo_list[0][
 for i in combo_list[1:]:
     writing_session.write("\t\t<tr>")
     #Food Cells
-    writing_session.write("<td>"+i[0]+"</td>")
+    writing_session.write("<td class=foody>"+i[0]+"</td>")
     #Money Cells
     writing_session.write("<td class='money-cell'>"+i[1]+"</td>")
 
@@ -52,6 +58,7 @@ writing_session.write("</div>")
 
 #Closing Tags
 writing_session.write(""" 
+<script src="JS/collapsebutton.js"></script>
 </body>
 </html>
 """)
