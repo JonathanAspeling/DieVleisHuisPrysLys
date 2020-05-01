@@ -1,7 +1,11 @@
 import csv
+import os
+
+
+# print("current dir", os.getcwd())
 
 # Open CSV and create a list
-f = open(r"C:\Users\Jonathan McAwesome\Dropbox\Projects\DieVleisHuisPrysLys\BackEnd\Pricelist.csv","r").read()
+f = open(r"./BackEnd/Pricelist.csv","r").read()
 itemlist = f.replace("\n",",").split(",")
 
 #Use above list and create a paired matrix
@@ -15,7 +19,7 @@ while cc < len(itemlist[:-1]):
 
 # Writing HTML file
 
-writing_session =  open(r"C:\Users\Jonathan McAwesome\Dropbox\Projects\DieVleisHuisPrysLys\index.html","w")
+writing_session =  open(r"./index.html","w")
 
 
 writing_session.write("""<!DOCTYPE html>
