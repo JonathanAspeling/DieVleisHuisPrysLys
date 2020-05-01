@@ -1,9 +1,3 @@
-import csv
-import os
-
-
-# print("current dir", os.getcwd())
-
 # Open CSV and create a list
 f = open(r"./BackEnd/Pricelist.csv","r").read()
 itemlist = f.replace("\n",",").split(",")
