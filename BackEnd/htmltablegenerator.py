@@ -1,4 +1,12 @@
-# Open CSV and create a list
+
+#change workin directory only when executing on p20.
+#import os
+
+#os.chdir("../")
+#print(os.getcwd())
+
+
+#Open CSV and create a list
 f = open(r"./BackEnd/Pricelist.csv","r").read()
 itemlist = f.replace("\n",",").split(",")
 
@@ -11,7 +19,7 @@ while cc < len(itemlist[:-1]):
     cc = cc+3
 
 
-# Writing HTML file
+ #Writing HTML file
 
 writing_session =  open(r"./index.html","w")
 
