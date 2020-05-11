@@ -26,6 +26,8 @@ writing_session =  open(r"./index.html","w")
 
 writing_session.write("""<!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165326494-1"></script>
