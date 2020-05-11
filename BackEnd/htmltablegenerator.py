@@ -52,7 +52,7 @@ writing_session.write("""<!DOCTYPE html>
     
     <div class="content">
     Koop R400 of meer kry gratis Kookvleis by!<br><br>
-    Skaapstertjies beperkte tyd beskikbaar!
+    Koop 2 Kookvleis Kry een Gratis!
     </div>
     </div>
     </div>
