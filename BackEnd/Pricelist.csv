@@ -1,20 +1,26 @@
 ﻿Winkel Item,Prys,Departement
-Braai - Skaap,R50.00,Vleis
-Braai - Vark,R50.00,Vleis
-Dro&euml;wors,R20.00,Vleis
-Haarslag,R10.00,Vleis
-Hardevet,R10.00,Vleis
-Kookvleis Bees ,R50.00,Vleis
-Kookvleis Skaap,R50.00,Vleis
-Kookvleis Vark,R50.00,Vleis
-Lewer,R20.00,Vleis
-Mince,R50.00,Vleis
-Sak hout,R50.00,Vleis
-Skaapstertjies,R40.00,Vleis
-Vetderm,R15.00,Vleis
-Wors,R50.00,Vleis
-Beskuit,R30.00,Bakkery
-Bruinbrood,R12.00,Bakkery
-Mosbeskuit,R15.00,Bakkery
-Skuinskoek,R30.00,Bakkery
-Witbrood,R12.00,Bakkery
+Boerewors,R50.00,Vleis - Wors
+Kaaswors,R50.00,Vleis - Wors
+PepperKaas Varkwors,R50.00,Vleis - Wors
+Varkwors,R50.00,Vleis - Wors
+Kookvleis Bees ,R50.00,Vleis - Kookvleis
+Kookvleis Skaap,R50.00,Vleis - Kookvleis
+Kookvleis Vark,R50.00,Vleis - Kookvleis
+Mince,R50.00,Vleis - Kookvleis
+Hoender Pak,R50.00,Vleis - Hoender
+Braai - Skaap,R50.00,Vleis - Braai
+Braai - Vark,R50.00,Vleis - Braai
+Skaapstertjies,R50.00,Vleis - Braai
+Biltong p/kg,R240.00,Vleis - Biltong
+Dro&euml;wors p/kg,R220.00,Vleis - Biltong
+Haarslag,R10.00,Vleis - Afval
+Hardevet,R10.00,Vleis - Afval
+Lewer,R20.00,Vleis - Afval
+Vetderm,R10.00,Vleis - Afval
+Sak hout,R50.00,Vleis - Aander
+Beskuit,R30.00,Bakkery - Bakgoed
+Mosbeskuit,R15.00,Bakkery - Bakgoed
+Skuinskoek,R30.00,Bakkery - Bakgoed
+Bruinbrood,R13.00,Bakkery - Brood
+Witbrood,R13.00,Bakkery - Brood
+Chedder kaas/ Gouda Kaas p/kg,R90.00,Bakkery - Dairy

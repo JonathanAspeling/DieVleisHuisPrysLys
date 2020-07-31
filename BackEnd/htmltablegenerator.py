@@ -51,8 +51,7 @@ writing_session.write("""<!DOCTYPE html>
     <button type="button" class="collapsible">Promosie</button>
     
     <div class="content">
-    Koop R400 of meer kry gratis Kookvleis by!<br><br>
-    Koop 2 Kookvleis Kry een Gratis!
+    Geen tans nie - hou dop
     </div>
     </div>
     </div>
